@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ホームページ</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Arial', sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        
+        .container {
+            background: white;
+            padding: 40px;
+            border-radius: 10px;
+            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+            text-align: center;
+            max-width: 500px;
+        }
+        
+        h1 {
+            color: #333;
+            margin-bottom: 20px;
+        }
+        
+        p {
+            color: #666;
+            line-height: 1.6;
+            margin-bottom: 20px;
+        }
+        
+        button {
+            background-color: #667eea;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+        
+        button:hover {
+            background-color: #764ba2;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>ようこそ！</h1>
+        <p>これはシンプルなホームページです。</p>
+        <p>カスタマイズして使用できます。</p>
+
+        <!-- 方法A : 同じタブで遷移 -->
+        <a href="https://docs.google.com/spreadsheets/d/1LFYXRORJ4bp8iauz4E7_tpDXds3hVNRD-f3jmLb0lpk/edit?usp=sharing" target="_blank" rel="noopener noreferrer">
+            <button type="button">References</button>
+        </a>
+        
+        <!-- 方法B : 新しいタブで遷移 -->
+        <a href="https://qiita.com/YAS_46/private/e90e1f82a6da94d5029c" target="_blank" rel="noopener noreferrer">
+            <button type="button">詳細を見る（新しいタブ）</button>
+        </a>
+    </div>
+</body>
+</html>
